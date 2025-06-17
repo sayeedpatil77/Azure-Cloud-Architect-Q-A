@@ -1,0 +1,317 @@
+**50 Azure Cloud Architect Interview Questions & Answers (Basic to Intermediate)**
+
+---
+
+### **1. What is Microsoft Azure?**
+
+**Answer:** Microsoft Azure is a cloud computing platform and service created by Microsoft, offering solutions such as IaaS, PaaS, and SaaS for building, testing, deploying, and managing applications and services.
+
+---
+
+### **2. What are the different types of cloud computing models in Azure?**
+
+**Answer:**
+
+* **IaaS (Infrastructure as a Service)**
+* **PaaS (Platform as a Service)**
+* **SaaS (Software as a Service)**
+
+---
+
+### **3. What is Azure Resource Manager (ARM)?**
+
+**Answer:** ARM is a management framework that allows users to deploy, manage, and monitor all Azure resources in a single, unified platform.
+
+---
+
+### **4. What is Azure Active Directory (Azure AD)?**
+
+**Answer:** Azure AD is a cloud-based identity and access management service that helps employees sign in and access resources securely.
+
+---
+
+### **5. What is the difference between Azure AD and Active Directory?**
+
+**Answer:** Azure AD is cloud-based and used for SaaS applications and cloud resources. Active Directory is on-premises and used for Windows domain networks.
+
+---
+
+### **6. What is a Resource Group in Azure?**
+
+**Answer:** A Resource Group is a container that holds related resources for an Azure solution. It allows easier management, monitoring, and billing.
+
+---
+
+### **7. What is the Azure Virtual Network (VNet)?**
+
+**Answer:** Azure VNet is the fundamental building block for private networks in Azure. It allows communication between Azure resources.
+
+---
+
+### **8. What are Network Security Groups (NSGs)?**
+
+**Answer:** NSGs contain a list of security rules that allow or deny network traffic to resources in a VNet.
+
+---
+
+### **9. What is Azure ExpressRoute?**
+
+**Answer:** ExpressRoute allows private connections between Azure datacenters and on-premises infrastructure, not over the public internet.
+
+---
+
+### **10. Explain Azure Availability Set.**
+
+**Answer:** It ensures that VMs deployed within are distributed across multiple isolated hardware nodes in a cluster to avoid single points of failure.
+
+---
+
+### **11. What is Azure Load Balancer?**
+
+**Answer:** It distributes incoming traffic among healthy VMs and helps in improving application availability.
+
+---
+
+### **12. What is Azure Application Gateway?**
+
+**Answer:** A web traffic load balancer with SSL termination, cookie-based session affinity, and web application firewall.
+
+---
+
+### **13. Explain Azure Storage types.**
+
+**Answer:**
+
+* Blob Storage
+* Table Storage
+* Queue Storage
+* File Storage
+* Disk Storage
+
+---
+
+### **14. What is Azure Blob Storage?**
+
+**Answer:** It stores unstructured data like images, video, and audio as objects/blobs.
+
+---
+
+### **15. What is Azure Site Recovery?**
+
+**Answer:** A disaster recovery service that replicates workloads running on physical and virtual machines to a secondary location.
+
+---
+
+### **16. What is Azure Monitor?**
+
+**Answer:** A full-stack monitoring service for collecting, analyzing, and acting on telemetry from cloud and on-premises environments.
+
+---
+
+### **17. What is Azure Security Center?**
+
+**Answer:** A unified infrastructure security management system that strengthens the security posture of your data centers.
+
+---
+
+### **18. What is Azure Policy?**
+
+**Answer:** Azure Policy is used to create, assign, and manage policies that enforce different rules and effects over resources.
+
+---
+
+### **19. What is Azure Cost Management?**
+
+**Answer:** It helps monitor, allocate, and optimize cloud spend and identify spending anomalies.
+
+---
+
+### **20. What are Azure Tags?**
+
+**Answer:** Name-value pairs assigned to resources for categorization and cost tracking.
+
+---
+
+### **21. What is Azure ARM Template?**
+
+**Answer:** JSON-based files used to define the infrastructure and configuration for Azure resources.
+
+---
+
+### **22. What is Azure Bicep?**
+
+**Answer:** A domain-specific language (DSL) for deploying Azure resources declaratively using simpler syntax than ARM.
+
+---
+
+### **23. What is Azure DevOps?**
+
+**Answer:** A suite of services for DevOps practices including CI/CD, version control, project management, etc.
+
+---
+
+### **24. What is Infrastructure as Code (IaC)?**
+
+**Answer:** Managing and provisioning infrastructure using code instead of manual processes.
+
+---
+
+### **25. Explain Azure Virtual Machine Scale Sets.**
+
+**Answer:** It allows you to deploy and manage a set of auto-scaling VMs with load balancing.
+
+---
+
+### **26. What are Azure Managed Disks?**
+
+**Answer:** Storage for Azure VMs managed by Azure, handling storage accounts and disk replication automatically.
+
+---
+
+### **27. What is Azure Kubernetes Service (AKS)?**
+
+**Answer:** Managed Kubernetes container orchestration service.
+
+---
+
+### **28. What is Azure Functions?**
+
+**Answer:** A serverless compute service that enables you to run code on-demand without managing infrastructure.
+
+---
+
+### **29. What is Azure Logic Apps?**
+
+**Answer:** A cloud service that helps automate workflows and integrate systems and services.
+
+---
+
+### **30. What are Service Principals in Azure?**
+
+**Answer:** Identities used by applications or services to access specific Azure resources.
+
+---
+
+### **31. What is Azure Lighthouse?**
+
+**Answer:** A service that allows service providers to manage multiple tenants securely from a single portal.
+
+---
+
+### **32. What is Azure Blueprints?**
+
+**Answer:** Enables you to define a repeatable set of Azure resources with policies, ARM templates, and RBAC.
+
+---
+
+### **33. Explain Azure Hybrid Benefit.**
+
+**Answer:** Allows use of on-premises licenses (like Windows Server or SQL Server) on Azure to save costs.
+
+---
+
+### **34. What is Azure Bastion?**
+
+**Answer:** A PaaS service to securely connect to VMs through the Azure portal without exposing them to the public internet.
+
+---
+
+### **35. What is the difference between Azure CLI and Azure PowerShell?**
+
+**Answer:** CLI uses commands similar to Linux shell, whereas PowerShell is an object-oriented scripting language.
+
+---
+
+### **36. What is RBAC in Azure?**
+
+**Answer:** Role-Based Access Control allows you to manage who has access to Azure resources and what they can do.
+
+---
+
+### **37. What is Conditional Access in Azure AD?**
+
+**Answer:** It enables automated access control decisions based on conditions like location, device state, or risk level.
+
+---
+
+### **38. Explain Azure Private Link.**
+
+**Answer:** Enables private access to Azure PaaS services over the VNet.
+
+---
+
+### **39. What is Azure VNet Peering?**
+
+**Answer:** Connects two VNets for private traffic between them using Microsoft’s backbone network.
+
+---
+
+### **40. What is a Service Endpoint?**
+
+**Answer:** Extends your VNet private address space to Azure services over the Azure backbone.
+
+---
+
+### **41. What is Azure DNS?**
+
+**Answer:** A hosting service for DNS domains, allowing name resolution using Microsoft Azure infrastructure.
+
+---
+
+### **42. What is Azure API Management?**
+
+**Answer:** A platform for managing, publishing, and securing APIs.
+
+---
+
+### **43. What is Azure Synapse Analytics?**
+
+**Answer:** An analytics service that brings together big data and data warehousing.
+
+---
+
+### **44. What is Azure Data Factory?**
+
+**Answer:** A cloud-based ETL and data integration service.
+
+---
+
+### **45. What is Azure Key Vault?**
+
+**Answer:** A service to securely store and manage secrets, keys, and certificates.
+
+---
+
+### **46. What is Azure Front Door?**
+
+**Answer:** A scalable entry point for global web applications with built-in load balancing, SSL offloading, and web application firewall.
+
+---
+
+### **47. What is Azure App Service?**
+
+**Answer:** A PaaS offering for hosting web apps, REST APIs, and mobile backends.
+
+---
+
+### **48. How can you secure Azure VMs?**
+
+**Answer:**
+
+* Use NSGs
+* Enable Just-in-Time VM Access
+* Use Azure Bastion
+* Apply Endpoint Protection
+* Enable Disk Encryption
+
+---
+
+### **49. What is the Shared Responsibility Model in Azure?**
+
+**Answer:** It defines the security responsibilities between Microsoft (for the infrastructure) and the customer (for data and access).
+
+---
+
+### **50. What is the role of a Cloud Architect in Azure projects?**
+
+**Answer:** Designing cloud solutions, choosing right services, ensuring cost efficiency, implementing governance, security, and helping in deployment and migration strategies.
